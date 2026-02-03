@@ -1,0 +1,177 @@
+@font-face {
+    font-family: bowlbyone;
+    src: url(/font/BowlbyOne-Regular.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
+body{
+    margin: 0;
+    font-family: bowlbyone;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    max-width: 100%;
+    background-color: #000000;
+    height: 77px;
+    text-transform: uppercase;
+}
+
+.textheader{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+header p{
+    margin: 0;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+header a {
+    color: #fff;
+}
+
+.hero{
+    background-color: #49CB83; 
+    width: 100%;
+}
+
+.titolo {
+ font-size: 37px;
+    line-height: 1.5;
+}
+.hero div {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px 32px 32px;
+}
+
+.hero_immagine {
+    width: 100%;
+}
+
+.citazione {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 50px 0 150px 0;
+
+}
+
+main {
+  max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.card {
+ display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.immagini {
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+}
+
+.text p {
+    line-height: 1.3;
+    margin-bottom: 1.3rem;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1 {
+    font-size: 25px;
+    line-height: 1.3;
+    margin-bottom: 1.8rem;
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 150px;
+}
+
+footer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size:32px;
+    font-weight: normal;
+    text-align: center;
+    font-style: normal;
+    padding: 83px;
+    margin: 0;
+}
+
+@media (max-width:600px) {
+    .card {
+        display: block;
+    }
+
+    .text {
+       padding: 20px 0 20px 0;
+    }
+    .immagini .text {
+        width: 100%;
+    }
+
+   .hero div{
+     flex-direction: column-reverse;
+         font-size: 30px;
+         align-items: start;
+    }
+    .hero_immagine img {
+        object-fit: cover;
+        width: 50%;
+    }
+
+    .citazione{
+        font-size: 20px;
+    }
+
+      header p {
+        font-size: 13px;
+    }
+    
+    header nav ul{
+        font-size: 13px;
+    }
+}
