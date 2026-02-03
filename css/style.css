@@ -1,5 +1,5 @@
 @font-face {
-    font-family: bowlbyone;
+    font-family: "Bowlby One", sans-serif;
     src: url(/font/BowlbyOne-Regular.ttf);
     font-weight: 100;
     font-style: normal;
@@ -12,7 +12,7 @@ html {
 
 body{
     margin: 0;
-    font-family: bowlbyone;
+    font-family: "Bowlby One", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
