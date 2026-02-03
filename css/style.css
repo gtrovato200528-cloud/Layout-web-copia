@@ -142,13 +142,19 @@ footer p{
 }
 
 @media (max-width:600px) {
-    .card {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 0 32px 0;
+  .card {
+        display: block;
+        margin-top: 20px;
     }
 
-    .text .immagini{
+    .text {
+       padding: 20px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .immagini{
+        padding: 20px 0;
         width: 100%;
         margin: 0 auto;
     }
@@ -165,7 +171,6 @@ footer p{
 
     .citazione{
         font-size: 20px;
-        padding: 32px 32px 60px 35px;
     }
 
       header p {
