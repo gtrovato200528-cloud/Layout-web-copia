@@ -130,7 +130,7 @@ footer{
     margin-top: 150px;
 }
 
-footer h1{
+footer p{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-size:32px;
@@ -168,10 +168,10 @@ footer h1{
     }
 
       header p {
-        font-size: 13px;
+        font-size: 8px;
     }
     
     header nav ul{
-        font-size: 13px;
+        font-size: 8px;
     }
 }
